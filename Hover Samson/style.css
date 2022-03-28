@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #cb2d3e;
+  background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);
+  background: linear-gradient(to right, #ef473a, #cb2d3e);
+}
+
+.head {
+  text-align: center;
+  font-size: 2em;
+  margin: 50px auto;
+  color: azure;
+  text-decoration: underline;
+}
+
+.content {
+  width: 300px;
+  border: 1px solid orange;
+  background-color: orange;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 500px auto;
+}
+
+.content p {
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.content:hover {
+  background-color: rgb(241, 194, 107);
+}
